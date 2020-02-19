@@ -1,0 +1,19 @@
+BODY
+{
+  font-family: 'Open Sans', arial;
+  font-size:1em;
+  color: #444;
+}
+
+H1 {
+  font-size:3em;
+  color:#33485e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+strong {
+  font-size:1.5em
+  text-transform: uppercase;
+  color:#33485e;
+  }
