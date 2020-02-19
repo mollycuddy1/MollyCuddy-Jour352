@@ -1,10 +1,11 @@
+/*styles for my resume*/
 BODY
 {
   font-family: 'Open Sans', arial;
   font-size:1em;
   color: #444;
 }
-
+/* banner name at top*/
 H1 {
   font-size:3em;
   color:#33485e;
