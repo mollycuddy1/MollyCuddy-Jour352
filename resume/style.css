@@ -6,11 +6,15 @@ BODY
   color: #444;
 }
 /* banner name at top*/
-H1 {
+#name {
   font-size:3em;
   color:#33485e;
   text-transform: uppercase;
   text-align: center;
+  width: 60%;
+  min-width: 300px;
+  border-bottom: 1px solid #33485e;
+  margin: 0 auto;
 }
 
 strong {
