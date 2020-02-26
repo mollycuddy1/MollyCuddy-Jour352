@@ -23,30 +23,47 @@ strong {
   color:#33485e;
   }
 
-  H2 {
+  .sectionheader {
     font-size:1.5em;
     text-transform: uppercase;
     background-color: #33485e;
     color:#ffffff;
 font-weight: 400;
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 0px;
+margin-right: 0px;
+width: 70%;
+min-width: 300px;
   }
 
-H3 {
+.jobtitle {
   font-weight:600;
   font-size:1.5em;
 }
 
-H4 {
+.organization {
   font-weight: 400;
-  font-size:1.5em;
+  font-size:1.25em;
 }
 
-H5 {
+.date {
   font-weight: 400;
   font-style: italic;
   font-size:1em;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 LI {
   font-size: 1em;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
