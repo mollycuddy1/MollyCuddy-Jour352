@@ -1,7 +1,7 @@
 /*styles for my resume*/
 BODY
 {
-  font-family: 'Open Sans', arial;
+  font-family: 'Montserrat', sans-serif;
   font-size:1em;
   color: #444;
 }
@@ -14,31 +14,19 @@ BODY
 /* banner name at top*/
 #name {
   font-size:3em;
-  color:#33485e;
+  color: #B38F9B;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bolder;
   width: 60%;
   min-width: 300px;
-  border-bottom: 1px solid #33485e;
   margin: 0 auto;
 }
 
-#title {
-  font-size:1.5em;
-  text-transform: uppercase;
-  color:#33485e;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  }
-/* this is my section header */
   .sectionheader {
     font-size:1.5em;
-    text-transform: uppercase;
-    background-color: #33485e;
+    text-transform: lowercase;
+    background-color: #B38F9B;
     color:#ffffff;
 font-weight: 400;
 margin-bottom: 10px;
@@ -71,6 +59,17 @@ min-width: 300px;
 
 LI {
   font-size: 1em;
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+li:before {
+  content: "\25BA \0020";
+  font-size: 6px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
 }
 
 .description {
@@ -118,4 +117,42 @@ LI {
   margin: 0 auto;
   margin-bottom: 30px;
 
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0077B5;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+#mail {
+  text-align: center;
+}
+
+.center
+{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.footnote {
+  font-size: 12px;
 }
