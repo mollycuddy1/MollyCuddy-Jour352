@@ -156,3 +156,7 @@ li:before {
 .footnote {
   font-size: 12px;
 }
+
+i {
+  display: inline;
+}
