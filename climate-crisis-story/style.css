@@ -18,6 +18,9 @@ background-color: #fffef2;
 H1, H2 {
   text-align: center;
   font-weight: bold;
+  background-color: #000080;
+  color: white;
+  font-family: serif;
 }
 
 
@@ -47,9 +50,30 @@ H1, H2 {
 }
 
 a:visited {
-  color: purple;
+  color: #9400D3;
 }
 
 a:hover {
   color: red;
 }
+
+.hero {
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; }
+
+.hero-content {
+  padding: 12px;
+  max-width: 192px; }
+
+  .hero-image {
+    flex: 1 1 40%;
+    max-width: 540px;
+    overflow: hidden; }
+
+  .hero-image img {
+    display: block;
+    width: 540px;
+    height: auto; }
