@@ -1,0 +1,55 @@
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+BODY {
+font-family: 'Montserrat', sans-serif;
+font-size:1em;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-color: #fffef2;
+}
+
+H1, H2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.pull {
+  float: left;
+    width: 150px;
+    background: #ddf;
+    font-weight: bold;
+    padding: 13px;
+    margin: 0 13px 13px 0;
+}
+
+.pull2 {
+  float: right;
+    width: 150px;
+    background: #ddf;
+    font-weight: bold;
+    padding: 13px;
+    margin: 0 13px 13px 0;
+
+.blockquote {
+    margin: 0;
+  }
+
+  a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
